@@ -21,7 +21,7 @@ import java.util.Map;
  * @see CauculaDistancia
  */
 @RestController
-@RequestMapping("/cidades")
+@RequestMapping("/")
 public class ListCidades {
     @Autowired
     RepositorioCidade repositorioCidade;
